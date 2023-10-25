@@ -1,0 +1,52 @@
+header{
+    text-align: center;
+    background-color: #e0dabf;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.267);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s; 
+}
+
+#titulo{
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+    padding: 2rem;
+}
+
+#listaMenu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+#listaMenu li {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#listaMenu li:hover {
+    color: #816e00;
+}
+
+.subMenu{
+    list-style: none;
+    display: none;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #bdb8a2;
+}
+
+.subMenu li{
+    cursor: pointer;
+    display: flex;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.subMenu li:hover{
+    color: #816e00;
+}
