@@ -43,7 +43,7 @@ header{
     display: none;
     justify-content: space-around;
     padding: 1rem;
-    background-color: #c2a4207a;
+    background: linear-gradient(to bottom, #ffffff, #0000003a);
 }
 
 .subMenu li{
